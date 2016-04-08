@@ -13,6 +13,9 @@ public class Lab7 {
         
         
         while (userConsent) {
+        	
+        	System.out.println("Enter number of batters on your team: ");
+        	
             
         	System.out.print("Enter number of times and bat: ");
             int onPlate = input.nextInt();
@@ -21,7 +24,7 @@ public class Lab7 {
                 System.out.print("Result for at-bat: ");
                 basesEarned[i] = input.nextDouble();
                 if (basesEarned[i] < 0 || basesEarned[i] > 4) {
-                    System.out.println("Dude, learn baseball.");
+                    System.out.println("You can only use 1,2,3 or 4. Slooooowwwwww People.");
                     i--;
                 }
                     
